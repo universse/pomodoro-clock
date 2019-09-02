@@ -1,0 +1,118 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F44336;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 72px;
+  margin-bottom: 60px;
+}
+
+#set-session {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+#timer {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: #fff 10px solid;
+  margin: 0 20px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 48px;
+  padding-top: 60px;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+#set-break {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+input[type="text"] {
+  width: 100px;
+  height: 40px;
+  color: #F44336;
+  border: none;
+  font-size: 28px;
+  cursor: default;
+  pointer-events: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+a {
+  display: inline-block;
+  background-color: #fff;
+  color: #F44336;
+}
+
+.mod {
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.func {
+  font-size: 24px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+a:hover {
+  color: #F44336;
+  cursor: pointer;
+}
+
+span.space {
+  display: inline-block;
+  width: 20px;
+  margin-top: 80px;
+}
+
+fa {
+  line-height: 1;
+}
+
+.fa-plus, .fa-minus {
+  padding-top: 5px;
+  padding-left: 1px;
+}
+
+.fa-play, .fa-pause, .fa-stop {
+  padding-top: 18px;
+}
+
+#pause {
+  display: none;
+}
+
+.fa-play {
+  padding-left: 7px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">Pomodoro Clock</h1>
+    </div>
+  </div>
+  
+  <div class="row" align="center">
+    <div class="col-md-12">
+      <div id="set-session">
+        <h3>Session</h3>
+        <a class="mod" id="plus-session"><i class="fa fa-plus"></i></a>
+        <input class="text-center" type="text" id="session">
+        <a class="mod" id="minus-session"><i class="fa fa-minus"></i></a>
+      </div>
+      <div id="timer">
+        <h2 id="when">Session</h2>
+        <h4 id="mins">25</h4>
+        <h4>:</h4>
+        <h4 id="secs">00</h4>
+      </div>
+      <div id="set-break">
+        <h3>Break</h3>
+        <a class="mod" id="plus-break"><i class="fa fa-plus"></i></a>
+        <input class="text-center" type="text" id="break">
+        <a class="mod" id="minus-break"><i class="fa fa-minus"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row" align="center">
+    <div class="col-md-12">
+      <a id="play" class="func text-center"><i class="fa fa-play"></i></a>
+      <a id="pause" class="func text-center"><i class="fa fa-pause"></i></a>
+      <span class="space"></span>
+      <a id="stop" class="func text-center"><i class="fa fa-stop"></i></a>
+    </div>
+  </div>
+  
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
